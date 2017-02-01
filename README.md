@@ -3,7 +3,7 @@ b2rPHP: Exception
 
 Common exceptions in my library
 
-[![Build Status](https://travis-ci.org/b2r/hello2.svg?branch=master)](https://travis-ci.org/b2r/php-exception)
+[![Build Status](https://travis-ci.org/b2r/php-exception.svg?branch=master)](https://travis-ci.org/b2r/php-exception)
 
 - All exception implements `ExceptionInterface`
 - All exception uses `ExceptionTrait`
