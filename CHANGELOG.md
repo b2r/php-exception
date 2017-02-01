@@ -3,6 +3,10 @@ b2rPHP: Exception - CHANGELOG
 
 [back to README](README.md)
 
+0.1.3 (2017-02-01)
+--------------------
+- Remove version from composer.json
+
 0.1.2 (2017-02-01)
 --------------------
 - Update CHANGELOG.md
