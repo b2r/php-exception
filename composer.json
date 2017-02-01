@@ -2,7 +2,6 @@
     "name": "b2r/exception",
     "type": "library",
     "description": "b2r Exception Component",
-    "version": "0.1.0",
     "keywords": ["exception"],
     "homepage": "https://github.com/b2r/php-exception",
     "license": "MIT",
