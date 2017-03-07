@@ -8,6 +8,7 @@ Common exceptions in my library
 - All exception implements `ExceptionInterface`
 - All exception uses `ExceptionTrait`
 - [CHANGELOG](CHANGELOG.md)
+- [Packagist](https://packagist.org/packages/b2r/exception)
 
 Exception classes
 --------------------
