@@ -15,7 +15,6 @@ b2rPHP: Exception - CHANGELOG
 --------------------
 - Update CHANGELOG.md
 
-
 0.1.1 (2017-02-01)
 --------------------
 - Fix Travis CI image url
