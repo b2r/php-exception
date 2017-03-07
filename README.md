@@ -16,6 +16,7 @@ Exception classes
     - InvalidMethodException
     - InvalidPropertyException
   - InvalidIndexException
+  - InvalidKeyException
   - InvalidTypeException
     - InvalidParameterTypeException
   - IOException
