@@ -3,6 +3,9 @@ b2rPHP: Exception - CHANGELOG
 
 [back to README](README.md)
 
+0.2.0 (2017-03-07)
+- Add InvalidKeyException
+
 0.1.3 (2017-02-01)
 --------------------
 - Remove version from composer.json
