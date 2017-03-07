@@ -3,6 +3,10 @@ b2rPHP: Exception - CHANGELOG
 
 [back to README](README.md)
 
+0.2.1 (2017-03-07)
+--------------------
+- Update docs
+
 0.2.0 (2017-03-07)
 --------------------
 - Add InvalidKeyException
