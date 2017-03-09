@@ -27,6 +27,7 @@ Exception classes
 - InvalidArgumentException
 - LogicException
 - RuntimeException
+- ValidationException
 
 Utility/Helper classes
 --------------------
