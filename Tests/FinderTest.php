@@ -7,15 +7,15 @@ class FinderTest extends \PHPUnit\Framework\TestCase
     public function testAll()
     {
         $ex = [
-            FileNotFoundException::class => ['FileNotFound', 'file'],
-            InvalidArgumentException::class => ['InvalidArgument', 'arg'],
+            FileNotFoundException::class => ['FileNotFound', 'File'],
+            InvalidArgumentException::class => ['InvalidArgument', 'Arg', 'Argument'],
             InvalidClassException::class => ['InvalidClass'],
-            InvalidClassMemberException::class => ['InvalidClassMember'],
-            InvalidIndexException::class => ['InvalidIndex'],
-            InvalidKeyException::class => ['InvalidKey'],
-            InvalidMethodException::class => ['Method'],
-            InvalidParameterTypeException::class => ['Param'],
-            InvalidPropertyException::class => ['Prop'],
+            InvalidClassMemberException::class => ['InvalidClassMember', 'ClassMember', 'Member'],
+            InvalidIndexException::class => ['InvalidIndex', 'Index'],
+            InvalidKeyException::class => ['InvalidKey', 'Key'],
+            InvalidMethodException::class => ['InvalidMethod', 'Method'],
+            InvalidParameterTypeException::class => ['Param', 'Parameter'],
+            InvalidPropertyException::class => ['Prop', 'Property'],
             InvalidTypeException::class => ['Type'],
             IOException::class => ['IO'],
             LogicException::class => ['Logic'],
@@ -43,7 +43,6 @@ class FinderTest extends \PHPUnit\Framework\TestCase
             $class = Finder::getClass($name);
             $this->assertTrue($class !== null);
         }
-
         $invalidNames = ['Foo'];
         foreach ($invalidNames as $name) {
             $class = Finder::getClass($name);
