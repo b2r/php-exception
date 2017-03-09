@@ -3,6 +3,10 @@ b2rPHP: Exception - CHANGELOG
 
 [back to README](README.md)
 
+0.3.0 (2017-03-09)
+- Add ValidationException
+- Update Finder
+
 0.2.1 (2017-03-07)
 --------------------
 - Update docs
