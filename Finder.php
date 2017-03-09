@@ -10,14 +10,20 @@ use ReflectionClass;
 abstract class Finder
 {
     protected static $aliases = [
-        'arg'    => 'InvalidArgument',
-        'dir'    => 'DirectoryNotFound',
-        'file'   => 'FileNotFound',
-        'index'  => 'InvalidIndex',
-        'method' => 'InvalidMethod',
-        'param'  => 'InvalidParameterType',
-        'prop'   => 'InvalidProperty',
-        'type'   => 'InvalidType',
+        'arg'         => 'InvalidArgument',
+        'argument'    => 'InvalidArgument',
+        'classmember' => 'InvalidClassMember',
+        'dir'         => 'DirectoryNotFound',
+        'file'        => 'FileNotFound',
+        'index'       => 'InvalidIndex',
+        'key'         => 'InvalidKey',
+        'member'      => 'InvalidClassMember',
+        'method'      => 'InvalidMethod',
+        'param'       => 'InvalidParameterType',
+        'parameter'   => 'InvalidParameterType',
+        'prop'        => 'InvalidProperty',
+        'property'    => 'InvalidProperty',
+        'type'        => 'InvalidType',
     ];
 
     protected static $namespaces = [
